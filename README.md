@@ -1,55 +1,32 @@
+# Clima - iOS Weather App
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+## Overview
 
-#  Clima
+Clima is a beautifully designed iOS weather app developed using Swift in Xcode. The app fetches real-time weather data from an open-source API based on the user's current location and displays it in an intuitive and user-friendly interface. Clima is perfect for users who want to stay updated with the latest weather conditions in their area.
 
-## Our Goal
+## Features
 
-It’s time to take our app development skills to the next level. We’re going to introduce you to the wonderful world of Application Programming Interfaces (APIs) to grab live data from the internet. If you’re dreaming of making that Twitter-powered stock trading app then you’re about add some serious tools to your toolbelt!
+- **Real-Time Weather Data:** Fetches and displays up-to-date weather information based on the user’s current location.
+- **Location-Based Updates:** Uses GPS to determine the user's location and automatically updates the weather conditions.
+- **Intuitive UI:** User-friendly interface that presents weather data in a clear and appealing manner.
+- **Detailed Weather Information:** Provides comprehensive weather details including temperature, humidity, wind speed, and more.
+- **Dynamic Backgrounds:** Changes background images based on the current weather conditions to enhance user experience.
+- **Error Handling:** Gracefully handles errors and provides informative messages to the user.
 
+## How It Works
 
-## What you will create
+1. **Fetch Location:** Clima uses the device’s GPS to fetch the user's current location.
+2. **API Request:** Sends a request to an open-source weather API to retrieve real-time weather data for the fetched location.
+3. **Data Parsing:** Parses the returned JSON data to extract relevant weather information.
+4. **UI Update:** Updates the user interface with the latest weather information, including temperature, conditions, and dynamic backgrounds.
 
-By the end of the module, you will have made a beautiful, dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually. 
+## Technologies Used
 
-## What you will learn
+- **Swift:** The core programming language used to develop the app.
+- **Xcode:** The integrated development environment (IDE) used for app development.
+- **CoreLocation:** Framework used to access the user’s location.
+- **URLSession:** Used for networking and fetching data from the weather API.
+- **JSON Parsing:** Extracts weather data from the API response.
+- **UIKit:** For building and managing the app’s user interface.
 
-* How to create a dark-mode enabled app.
-* How to use vector images as image assets.
-* Learn to use the UITextField to get user input. 
-* Learn about the delegate pattern.
-* Swift protocols and extensions. 
-* Swift guard keyword. 
-* Swift computed properties.
-* Swift closures and completion handlers.
-* Learn to use URLSession to network and make HTTP requests.
-* Parse JSON with the native Encodable and Decodable protocols. 
-* Learn to use Grand Central Dispatch to fetch the main thread.
-* Learn to use Core Location to get the current location from the phone GPS. 
-
-### Condition Codes
-```
-switch conditionID {
-        case 200...232:
-            return "cloud.bolt"
-        case 300...321:
-            return "cloud.drizzle"
-        case 500...531:
-            return "cloud.rain"
-        case 600...622:
-            return "cloud.snow"
-        case 701...781:
-            return "cloud.fog"
-        case 800:
-            return "sun.max"
-        case 801...804:
-            return "cloud.bolt"
-        default:
-            return "cloud"
-        }
-```
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
-# Clima
+https://github.com/KoKoAung58/Clima/assets/56900429/5f7fa8f7-d718-4a0d-b378-b07e0637af3c
